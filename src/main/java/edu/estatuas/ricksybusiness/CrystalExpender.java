@@ -28,4 +28,11 @@ public class CrystalExpender implements GuestDispatcher{
             System.out.println("Sin guita no hay brillante.");
         }
     }
+
+    @Override
+    //copiado de Gelpi
+    public String toString() {
+        return "stock: " + this.stock +
+                "\ncost: " + this.itemCost;
+    }
 }
