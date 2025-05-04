@@ -27,6 +27,15 @@ public class CreditCard {
         return credit;
     }
 
+    public boolean pay(double precio){
+        if(credit >= precio){
+            credit -= precio;
+            return true;
+        } else {
+            return false;
+        }
+    }
+
     @Override
     public String toString() {
         return "owner: " + owner + "\nPAN: " + number + "\nCredit: " + credit + " " + SYMBOL;
