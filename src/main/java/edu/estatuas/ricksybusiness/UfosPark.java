@@ -4,7 +4,7 @@ import java.util.Arrays;
 import java.util.HashMap;
 import java.util.List;
 
-public class UfosPark {
+public class UfosPark implements GuestDispatcher{
     private final double fee = 500d;
     private HashMap<String, String> flota = new HashMap<>();
 
@@ -12,6 +12,7 @@ public class UfosPark {
         flota.put(ufoID, null);
     }
 
+    @Override
     public void dispatch(CreditCard cliente){
 
         // podría hacerse en un sólo elif.
