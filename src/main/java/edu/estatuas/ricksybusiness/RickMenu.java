@@ -17,6 +17,16 @@ public class RickMenu implements GuestDispatcher {
         return stock;
     }
 
+    public String getPurchaseLog() {
+        StringBuilder outputLog = new StringBuilder();
+        outputLog.append("Log de compras: ");
+        for (String entrance: purchaseLog) {
+            outputLog.append(entrance).append(" ");
+        }
+
+        return outputLog.toString();
+    }
+
     @Override
     public void dispatch(CreditCard cliente){
         if (stock <= 0){
