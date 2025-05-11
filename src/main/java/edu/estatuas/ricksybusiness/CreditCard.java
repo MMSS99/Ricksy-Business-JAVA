@@ -23,6 +23,10 @@ public class CreditCard {
         return number;
     }
 
+    public String owner(){
+        return owner;
+    }
+
     public double credit(){
         return credit;
     }
