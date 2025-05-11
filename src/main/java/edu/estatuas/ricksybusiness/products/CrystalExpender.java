@@ -6,7 +6,7 @@ public class CrystalExpender implements GuestDispatcher{
     private int stock;
     private final double itemCost;
 
-    CrystalExpender(int stock, double itemCost) {
+    public CrystalExpender(int stock, double itemCost) {
         this.stock = stock;
         this.itemCost = itemCost;
     }

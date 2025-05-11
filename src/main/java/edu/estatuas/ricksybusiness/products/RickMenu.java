@@ -9,7 +9,7 @@ public class RickMenu implements GuestDispatcher {
     private final double itemCost;
     private ArrayList<String> purchaseLog = new ArrayList<String>();
 
-    RickMenu(int stock, double itemCost) {
+    public RickMenu(int stock, double itemCost) {
         this.stock = stock;
         this.itemCost = itemCost;
     }

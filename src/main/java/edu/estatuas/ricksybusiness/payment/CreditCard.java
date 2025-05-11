@@ -7,13 +7,13 @@ public class CreditCard {
     private final String SYMBOL = "EZI";
 
 
-    CreditCard(String owner, String PAN) {
+    public CreditCard(String owner, String PAN) {
         this.owner = owner;
         this.number = PAN;
         this.credit = 3000.0;
     }
 
-    CreditCard(String owner, String PAN, double credit) {
+    public CreditCard(String owner, String PAN, double credit) {
         this.owner = owner;
         this.number = PAN;
         this.credit = credit;
