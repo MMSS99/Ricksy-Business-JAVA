@@ -1,4 +1,7 @@
-package edu.estatuas.ricksybusiness;
+package edu.estatuas.ricksybusiness.processes;
+
+import edu.estatuas.ricksybusiness.payment.CreditCard;
+import edu.estatuas.ricksybusiness.products.GuestDispatcher;
 
 import java.util.ArrayList;
 

@@ -1,7 +1,8 @@
-package edu.estatuas.ricksybusiness;
+package edu.estatuas.ricksybusiness.products;
+
+import edu.estatuas.ricksybusiness.payment.CreditCard;
 
 import java.util.ArrayList;
-import java.util.List;
 
 public class RickMenu implements GuestDispatcher {
     private int stock;

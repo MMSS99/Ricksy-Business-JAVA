@@ -1,4 +1,6 @@
-package edu.estatuas.ricksybusiness;
+package edu.estatuas.ricksybusiness.products;
+
+import edu.estatuas.ricksybusiness.payment.CreditCard;
 
 import java.util.Arrays;
 import java.util.HashMap;

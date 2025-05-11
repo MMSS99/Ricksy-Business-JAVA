@@ -25,6 +25,12 @@
 
 package edu.estatuas.ricksybusiness;
 
+import edu.estatuas.ricksybusiness.payment.CreditCard;
+import edu.estatuas.ricksybusiness.processes.Receptivo;
+import edu.estatuas.ricksybusiness.products.CrystalExpender;
+import edu.estatuas.ricksybusiness.products.RickMenu;
+import edu.estatuas.ricksybusiness.products.UfosPark;
+
 public class RicksyBusiness {
 
     public static void main(String[] args) {

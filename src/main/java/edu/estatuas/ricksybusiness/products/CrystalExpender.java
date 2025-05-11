@@ -1,4 +1,6 @@
-package edu.estatuas.ricksybusiness;
+package edu.estatuas.ricksybusiness.products;
+
+import edu.estatuas.ricksybusiness.payment.CreditCard;
 
 public class CrystalExpender implements GuestDispatcher{
     private int stock;

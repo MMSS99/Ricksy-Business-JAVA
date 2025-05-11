@@ -1,4 +1,4 @@
-package edu.estatuas.ricksybusiness;
+package edu.estatuas.ricksybusiness.payment;
 
 public class CreditCard {
     private final String owner;
