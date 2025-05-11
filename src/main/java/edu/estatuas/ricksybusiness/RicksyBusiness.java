@@ -219,8 +219,16 @@ public class RicksyBusiness {
          * Muestra el total de pedidos y la lista de
          * invitados/as que han hecho un pedido.
          */
+        RickMenu rickMenu = new RickMenu(100, 10d);
+        receptivo.registra(rickMenu);
+        receptivo.dispatch(abradolph);
+        receptivo.dispatch(squanchy);
+        receptivo.dispatch(morty);
+        receptivo.dispatch(gearHead);
+        receptivo.dispatch(birdpearson);
 
-        // tu código aquí
+        System.out.println("Los siguientes clientes han comprado menús: \n" + rickMenu.getPurchaseLog());
+
     }
 
     private static void mostrarReserva(CreditCard card, CrystalExpender expender, UfosPark ufos) {
